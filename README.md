@@ -1,4 +1,3 @@
-# Voice-to-text-converter
 import speech_recognition as sr
 
 def voice_to_text(output_file="output.txt"):
@@ -25,4 +24,4 @@ def voice_to_text(output_file="output.txt"):
     except sr.RequestError:
         print("Could not connect to Google Speech API")
 
-voice_to_text() 
+voice_to_text()
